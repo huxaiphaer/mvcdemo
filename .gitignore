@@ -1,0 +1,6 @@
+appsettings.*
+bin/
+obj/
+node_modules/
+.idea
+.idea/
