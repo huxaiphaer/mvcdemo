@@ -10,6 +10,7 @@
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.2" />
+    <None Remove="gulp.js" />
   </ItemGroup>
 
   <ItemGroup>
