@@ -65,6 +65,22 @@
             getValue: function(element) {
                 return element.name;
             },
+            template: {
+                type: "description",
+                fields: {
+                    description: "color"
+                }
+            },
+
+            list: {
+                match: {
+                    enabled: false
+                }
+                ,
+                sort: {
+                    enabled: false
+                }
+            },
 
             ajaxSettings: {
                 dataType: "json",
@@ -75,7 +91,7 @@
             },
 
             preparePostData: function(data) {
-                data.search = $("#search").val();
+                data.search = $("#search").val ();
                 return data;
             },
 
